@@ -13,6 +13,8 @@ export const Container = styled.div`
 
   padding: 24px 123px;
 
+  border-bottom: 1px solid ${({ theme }) => theme.COLORS.GRAY_600};
+
   > h1 {
     color: ${({ theme }) => theme.COLORS.PINK};
     font-family: 'Roboto Slab';

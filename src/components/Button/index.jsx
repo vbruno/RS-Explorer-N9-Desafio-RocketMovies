@@ -2,13 +2,14 @@ import { Container } from './styles'
 
 import PropTypes from 'prop-types'
 
-export function Button({ title, loading = false, ...rest }) {
+export function Button({ title, loading = false, icon: Icon, ...rest }) {
   return (
     <Container
       type='button'
       disabled={loading}
       {...rest}
     >
+      {Icon && <Icon size={20} />}
       {loading ? "Carregando..." : title}
     </Container>
   )
@@ -17,4 +18,5 @@ export function Button({ title, loading = false, ...rest }) {
 Button.propTypes = {
   title: PropTypes.string.isRequired,
   loading: PropTypes.bool,
+  icon: PropTypes.elementType
 }
