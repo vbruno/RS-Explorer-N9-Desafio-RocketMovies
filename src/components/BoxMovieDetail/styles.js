@@ -5,5 +5,10 @@ export const Container = styled.div`
   width: 100%;
   min-height: 223px;
 
-  border: 1px solid ${({ theme }) => theme.COLORS.GRAY_100};
+  padding: 32px;
+
+  background: ${({ theme }) => theme.COLORS.CHERRY};
+  border-radius: 16px;
+
+
 `;

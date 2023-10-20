@@ -7,7 +7,7 @@ export default {
     PINK: "#FF859B",
     RED: "#FF002E",
 
-    CHERRY: "#FF859B0D",
+    CHERRY: "#FF859B0C",
 
     GRAY_900: "#1C1B1E",
     GRAY_850: "#232129",
