@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import { FiArrowLeft, FiClock } from "react-icons/fi";
 import {
   Container,
@@ -17,10 +18,10 @@ export function MoviePreview() {
     <Container>
       <Header />
       <Content>
-        <header>
+        <Link to={"/"}>
           <FiArrowLeft />
           <span>Voltar</span>
-        </header>
+        </Link>
         <main>
           <MovieTitle>
             Interestellar

@@ -6,7 +6,7 @@ export const Content = styled.div`
   min-height: 90vh;
   padding: 40px 123px 100px;
 
-  header {
+  a {
     display: flex;
     align-items: center;
     gap: 8px;

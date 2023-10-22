@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import { FiArrowLeft } from "react-icons/fi";
 import { Container, Content, Form, Bookmarks, Action } from "./style";
 
@@ -12,10 +13,10 @@ export function CreateMovie() {
     <Container>
       <Header />
       <Content>
-        <header>
+        <Link to={"/"}>
           <FiArrowLeft />
           <span>Voltar</span>
-        </header>
+        </Link>
         <Form>
           <h1>Novo Filme</h1>
           <div>

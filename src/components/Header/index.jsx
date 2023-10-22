@@ -1,28 +1,23 @@
+import { Link } from "react-router-dom";
 import { Container, Profile } from "./styles";
 
-import { Input } from "../Input";
+import { InputText } from "../InputText";
 
 export function Header() {
   return (
     <Container>
       <h1>RocketMovies</h1>
 
-      <Input placeholder='Pesquisar por título' />
+      <InputText placeholder="Pesquisar por título" />
 
-      <Profile>
+      <Profile to={"/profile"}>
         <div>
-          <strong>
-            Bruno S. Velho
-          </strong>
-          <a href="/">
-            sair
-          </a>
+          <strong>Bruno S. Velho</strong>
+          <Link to="/">sair</Link>
         </div>
 
         <img src="http://github.com/vbruno.png" alt="Foto do usuário" />
-
       </Profile>
-
     </Container>
-  )
+  );
 }

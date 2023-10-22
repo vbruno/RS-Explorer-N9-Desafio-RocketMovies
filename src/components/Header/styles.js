@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { Link } from "react-router-dom";
 
 export const Container = styled.div`
   grid-area: header;
@@ -17,15 +18,19 @@ export const Container = styled.div`
 
   > h1 {
     color: ${({ theme }) => theme.COLORS.PINK};
-    font-family: 'Roboto Slab';
+    font-family: "Roboto Slab";
     font-size: 24px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
   }
+
+  input {
+    height: 56px;
+  }
 `;
 
-export const Profile = styled.div`
+export const Profile = styled(Link)`
   display: flex;
   align-items: center;
 
@@ -56,9 +61,5 @@ export const Profile = styled.div`
       font-size: 14px;
       color: ${({ theme }) => theme.COLORS.GRAY_300};
     }
-
   }
-
-
-
 `;
