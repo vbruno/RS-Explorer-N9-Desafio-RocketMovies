@@ -1,6 +1,5 @@
 export default {
   COLORS: {
-
     BLACK: "#000000",
     WHITE: "#F4EDE8",
     ORANGE: "#FF9000",
@@ -9,6 +8,7 @@ export default {
 
     CHERRY: "#FF859B0C",
 
+    GRAY_950: "#0D0C0F",
     GRAY_900: "#1C1B1E",
     GRAY_850: "#232129",
     GRAY_800: "#262529",
@@ -20,6 +20,5 @@ export default {
     GRAY_200: "#CAC4CF",
     GRAY_100: "#E5E5E5",
     GRAY_000: "#F4EDE8",
-
-  }
-}
+  },
+};

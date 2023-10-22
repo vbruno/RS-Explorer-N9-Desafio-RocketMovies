@@ -25,14 +25,9 @@ export const Container = styled.div`
     &:placeholder {
       color: ${({ theme }) => theme.COLORS.GRAY_300};
     }
-
-    &:focus {
-      border: 0;
-      outline: 0;
-    }
   }
 
   > svg {
-      margin-left: 16px;
-    }
-`
+    margin-left: 16px;
+  }
+`;
