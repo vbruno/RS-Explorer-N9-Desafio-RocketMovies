@@ -12,3 +12,10 @@ export const Container = styled.div`
 
 
 `;
+
+export const Tags = styled.div`
+ display: flex;
+ flex-direction: row;
+ gap: 8px;
+ margin-top: 16px;
+`;
